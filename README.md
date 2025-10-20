@@ -78,7 +78,6 @@ Task1-Preprocessing/
 
 
 ## Tools & Libraries
->>>>>>> 8588110331057822ff629dcc473d53ef1beddd9a
 - **Python 3.12+**
 - **Pandas**
 - **NumPy**
@@ -90,9 +89,6 @@ Task1-Preprocessing/
 
 
 ## ▶ Run the Project
-=======
-## Run the Project
->>>>>>> 8588110331057822ff629dcc473d53ef1beddd9a
 1. Clone this repository:
    ```bash
    git clone https://github.com/Mamoonkhan11/Data-cleaning-and-preprocessing__AI-ML
