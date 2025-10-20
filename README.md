@@ -1,12 +1,15 @@
-# 🧹 Task 1 — Data Cleaning & Preprocessing (Titanic Dataset)
+![Outlier Boxplot](F:\Task1-Preprocessing\Screenshot (2).png)
+![Correlation Heatmap](F:\Task1-Preprocessing\Screenshot (1).png)
 
-## 📘 Overview
+# Task 1 — Data Cleaning & Preprocessing (Titanic Dataset)
+
+## Overview
 This project focuses on **data preprocessing and cleaning** using the **Titanic dataset**, a foundational step in any Machine Learning pipeline.  
 The goal is to clean raw data, handle missing values, encode categorical variables, detect & remove outliers, and visualize relationships before model training.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Handle missing and inconsistent data.  
 - Encode categorical variables into numerical form.  
 - Normalize and scale numerical features.  
@@ -15,7 +18,7 @@ The goal is to clean raw data, handle missing values, encode categorical variabl
 
 ---
 
-## 🧠 Concepts Covered
+## Concepts Covered
 - Missing data handling (mean, mode imputation)
 - Label and one-hot encoding
 - Standardization and normalization
@@ -24,7 +27,7 @@ The goal is to clean raw data, handle missing values, encode categorical variabl
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 ```
 Task1-Preprocessing/
 │
@@ -49,7 +52,7 @@ Task1-Preprocessing/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. **Data Cleaning:**  
    - Fills missing `Age` values with the mean.  
    - Replaces missing `Embarked` entries with the mode.  
@@ -67,16 +70,6 @@ Task1-Preprocessing/
 
 ---
 
-## 📊 Results
-
-### 🔹 Outliers Boxplot for Fare
-![Outlier Boxplot](outputs/visuals/outliers_boxplot_Fare.png)
-
-### 🔹 Correlation Heatmap
-![Correlation Heatmap](outputs/visuals/correlation_heatmap.png)
-
----
-
 ## 🧰 Tools & Libraries
 - **Python 3.12+**
 - **Pandas**
@@ -87,7 +80,7 @@ Task1-Preprocessing/
 
 ---
 
-## ▶️ Run the Project
+## ▶ Run the Project
 1. Clone this repository:
    ```bash
    git clone https://github.com/<your-username>/Task1-Preprocessing.git
@@ -112,6 +105,6 @@ Task1-Preprocessing/
 
 ---
 
-## 🧾 References
+## References
 - Dataset: [Titanic Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
 - Internship Guide: AI & ML Task 1 — Data Cleaning and Preprocessing
