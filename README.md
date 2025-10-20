@@ -1,4 +1,4 @@
-# 🧹 Task 1 — Data Cleaning & Preprocessing (Titanic Dataset)
+# Task 1 — Data Cleaning & Preprocessing (Titanic Dataset)
 
 ## 📘 Overview
 This project focuses on **data preprocessing and cleaning** using the **Titanic dataset**, a foundational step in any Machine Learning pipeline.  
