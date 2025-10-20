@@ -1,0 +1,7 @@
+# Supported Python packages for the project
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+jupyter

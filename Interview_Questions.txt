@@ -1,0 +1,57 @@
+1. What are the different types of missing data?
+
+Missing data is generally classified into three types:
+MCAR (Missing Completely at Random): Missingness has no relationship with any other variable or itself.
+MAR (Missing at Random): Missingness depends on other observed variables.
+MNAR (Missing Not at Random): Missingness depends on the unobserved data itself.
+Example in Titanic dataset: Age might be MAR if younger passengers are more likely to have missing values, while Cabin could be MNAR if luxury cabins were less recorded.
+
+2. How do you handle categorical variables?
+
+Categorical variables must be converted to numerical form for ML models. Common methods:
+Label Encoding: Assigns an integer to each category (e.g., Sex: Male = 0, Female = 1).
+One-Hot Encoding: Creates binary columns for each category (e.g., Embarked → Embarked_C, Embarked_Q, Embarked_S).
+
+3. What is the difference between normalization and standardization?
+
+Normalization (Min-Max Scaling): Scales values to a fixed range (0–1).
+Standardization (Z-score Scaling): Scales values to have mean 0 and standard deviation 1.
+Use case: Fare is skewed, so standardization helps models handle extreme values.
+
+4. How do you detect outliers?
+
+IQR (Interquartile Range) Method:
+Calculate Q1 (25th percentile) and Q3 (75th percentile).
+Compute IQR = Q3 - Q1.
+Values outside [Q1 - 1.5*IQR, Q3 + 1.5*IQR] are outliers.
+Visual Reference:
+The boxplot highlights extreme values in Fare, which were removed for model stability.
+
+5. Why is preprocessing important in ML?
+
+Cleans noisy and inconsistent data.
+Handles missing values and categorical variables.
+Ensures features are on comparable scales.
+Reduces bias and improves model accuracy.
+Without preprocessing, ML models may underperform or fail entirely.
+
+6. What is one-hot encoding vs label encoding?
+
+Method	Description	Example (Embarked)
+Label Encoding	Assigns integer to each category	[C=0, Q=1, S=2]
+One-Hot Encoding	Creates separate binary column per category	Embarked_C=1, Embarked_Q=0, Embarked_S=0
+Use one-hot for nominal data without ordinal relationship; label encoding can be used for ordinal feature
+
+7. How do you handle data imbalance?
+
+Resampling: Oversample minority or undersample majority classes.
+Synthetic Data: Use SMOTE to generate new minority class examples.
+Class Weights: Adjust model loss to penalize misclassification of minority class.
+Example: In Titanic, Survived may be imbalanced; these techniques ensure fair learning.
+
+8. Can preprocessing affect model accuracy?
+
+Absolutely Yes. Proper preprocessing:
+Reduces noise and variance.
+Eliminates misleading outliers.
+Scales features for algorithms sensitive to magnitude.
