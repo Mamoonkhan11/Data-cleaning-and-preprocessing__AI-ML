@@ -30,5 +30,4 @@ def saved_correlation_heatmap(data, outpath="outputs/visuals"):
     plt.savefig(filename)
     plt.close()
 
-    print(f"Correlation heatmap saved to {filename}")
     return filename

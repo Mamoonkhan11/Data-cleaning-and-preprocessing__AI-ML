@@ -16,7 +16,7 @@ def run_pipeline():
     saved_correlation_heatmap(df)
 
     df.to_csv("outputs/cleaned_titanic.csv", index=False)
-    print("Data preprocessing completed and saved to cleaned_titanic.csv, Check out there!")
+    print("Processing finished! Check out your results in the 'outputs' directory.")
 
 if __name__ == "__main__":
     run_pipeline()
