@@ -90,7 +90,7 @@ Task1-Preprocessing/
 ## ▶️ Run the Project
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/Task1-Preprocessing.git
+   git clone https://github.com/Mamoonkhan11/Data-cleaning-and-preprocessing__AI-ML
    cd Task1-Preprocessing
    ```
 
