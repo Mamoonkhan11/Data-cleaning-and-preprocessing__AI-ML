@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 ![Outlier Boxplot](F:\Task1-Preprocessing\Screenshot (2).png)
 ![Correlation Heatmap](F:\Task1-Preprocessing\Screenshot (1).png)
 
 # Task 1 — Data Cleaning & Preprocessing (Titanic Dataset)
 
+=======
+# Task 1 — Data Cleaning & Preprocessing (Titanic Dataset)
+
+>>>>>>> 8588110331057822ff629dcc473d53ef1beddd9a
 ## Overview
 This project focuses on **data preprocessing and cleaning** using the **Titanic dataset**, a foundational step in any Machine Learning pipeline.  
 The goal is to clean raw data, handle missing values, encode categorical variables, detect & remove outliers, and visualize relationships before model training.
@@ -70,7 +75,21 @@ Task1-Preprocessing/
 
 ---
 
+<<<<<<< HEAD
 ## 🧰 Tools & Libraries
+=======
+## Results
+
+### 🔹 Outliers Boxplot for Fare
+![Outlier Boxplot](outputs/visuals/outliers_boxplot_Fare.png)
+
+### 🔹 Correlation Heatmap
+![Correlation Heatmap](outputs/visuals/correlation_heatmap.png)
+
+---
+
+## Tools & Libraries
+>>>>>>> 8588110331057822ff629dcc473d53ef1beddd9a
 - **Python 3.12+**
 - **Pandas**
 - **NumPy**
@@ -80,10 +99,14 @@ Task1-Preprocessing/
 
 ---
 
+<<<<<<< HEAD
 ## ▶ Run the Project
+=======
+## Run the Project
+>>>>>>> 8588110331057822ff629dcc473d53ef1beddd9a
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/Task1-Preprocessing.git
+   git clone https://github.com/Mamoonkhan11/Data-cleaning-and-preprocessing__AI-ML
    cd Task1-Preprocessing
    ```
 
